@@ -1,0 +1,37 @@
+{
+  "name": "node-create-react-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "create-react": "bin/index.js"
+  },
+  "homepage": "https://github.com/wy-linux/node-create-react-cli",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wy-linux/node-create-react-cli.git"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^7.3.3",
+    "ora": "^5.4.1",
+    "shelljs": "^0.8.5",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.6",
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.17",
+    "@types/shelljs": "^0.8.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wangyu",
+  "license": "MIT"
+}
